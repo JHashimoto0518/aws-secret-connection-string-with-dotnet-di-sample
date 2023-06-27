@@ -1,3 +1,3 @@
 ﻿using SecretConnStrProviderSample;
 
-Console.WriteLine(new ConfigConnectionStringProvider().GetConnectionString("MyDbConnStr"));
+Console.WriteLine(await new ConfigConnectionStringProvider().GetConnectionString("MyDbConnStr"));
